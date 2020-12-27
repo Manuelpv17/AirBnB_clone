@@ -26,8 +26,8 @@
   opacity: 90%;
 }
 
-.locations,
-.amenities {
+.filters .locations,
+.filters .amenities {
   height: 100%;
   width: 25%;
   display: flex;
