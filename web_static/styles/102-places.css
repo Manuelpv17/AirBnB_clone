@@ -1,0 +1,125 @@
+.places {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.places h1 {
+  font-size: 30px;
+  flex-basis: 100%;
+  margin-bottom: 0px;
+}
+
+.places article {
+  width: 390px;
+  padding: 20px;
+  margin: 20px;
+  border: #ff5a5f 1px solid;
+  border-radius: 4px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  z-index: -1;
+}
+
+.places article h2 {
+  font-size: 30px;
+}
+
+.price_by_night {
+  color: #ff5a5f;
+  border: #ff5a5f 4px solid;
+  border-radius: 50%;
+  min-width: 60px;
+  height: 60px;
+  font-size: 30px;
+  position: absolute;
+  right: 5px;
+  top: 5px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.information {
+  height: 80px;
+  border-bottom: solid #ddd 1px;
+  border-top: solid #ddd 1px;
+  display: flex;
+  align-self: center;
+}
+
+.information div {
+  display: flex;
+  align-items: flex-end;
+  justify-content: center;
+  width: 100px;
+}
+
+.max_guest {
+  background: url(../images/icon_group.png) no-repeat top;
+}
+
+.number_rooms {
+  background: url(../images/icon_bed.png) no-repeat top;
+}
+
+.number_bathrooms {
+  background: url(../images/icon_bath.png) no-repeat top;
+}
+
+.user {
+  align-self: start;
+  margin: 10px 0px;
+}
+
+.places .amenities {
+  margin-top: 40px;
+  width: 100%;
+}
+
+.places .amenities h2,
+.places .reviews h2 {
+  font-size: 16px;
+  border-bottom: #ddd solid 1px;
+  margin-top: 0;
+}
+
+.places .reviews h3 {
+  font-size: 14px;
+}
+
+.places .reviews p {
+  font-size: 12px;
+}
+
+.places .amenities ul {
+  list-style: none;
+  padding-left: 0;
+}
+
+.places .amenities li {
+  height: 50px;
+  width: 100%;
+  display: flex;
+  align-items: center;
+}
+
+.places .amenities li span {
+  height: 100%;
+  width: 50px;
+}
+
+.tv {
+  background: url("../images/icon_tv.png") no-repeat;
+}
+
+.wifi {
+  background: url("../images/icon_wifi.png") no-repeat;
+}
+
+.pet {
+  background: url("../images/icon_pets.png") no-repeat left;
+}
