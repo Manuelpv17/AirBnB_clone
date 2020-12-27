@@ -19,7 +19,7 @@
   display: flex;
   flex-direction: column;
   justify-content: center;
-  align-items: flex-start;
+  align-items: center;
   position: relative;
   z-index: -1;
 }
@@ -75,7 +75,7 @@
   margin: 10px 0px;
 }
 
-.amenities {
+.places .amenities {
   margin-top: 40px;
   width: 100%;
 }
@@ -95,19 +95,19 @@
   font-size: 12px;
 }
 
-.amenities ul {
+.places .amenities ul {
   list-style: none;
   padding-left: 0;
 }
 
-.amenities li {
+.places .amenities li {
   height: 50px;
   width: 100%;
   display: flex;
   align-items: center;
 }
 
-.amenities li span {
+.places .amenities li span {
   height: 100%;
   width: 50px;
 }
